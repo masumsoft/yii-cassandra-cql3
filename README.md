@@ -25,7 +25,6 @@ http://stackoverflow.com/questions/16139362/cassandra-is-not-retrieving-the-corr
 <pre>
 $query_result = Yii::app()->cassandra->cql3_query("Select * from users");
 $rows = Yii::app()->cassandra->cql_get_rows($query_result);
-echo "<pre>";
 print_r($rows);
 die;
 </pre>
