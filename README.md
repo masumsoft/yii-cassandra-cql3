@@ -14,11 +14,12 @@ http://stackoverflow.com/questions/16139362/cassandra-is-not-retrieving-the-corr
 <pre>
 "components" => array(
 	'cassandra' => array(
-    'class' => 'ext.yii-cassandra-cql3.ACassandraConnection',
-    'keyspace' => 'YOUR_KEYSPACE',
-    'servers' => array('127.0.0.1')
-	...
-),
+	'class' => 'ext.yii-cassandra-cql3.ACassandraConnection',
+	'keyspace' => 'YOUR_KEYSPACE',
+	'servers' => array('127.0.0.1')
+	)
+...
+)
 </pre>
 
 <h3>Querying Cassandra using CQL3</h3>
